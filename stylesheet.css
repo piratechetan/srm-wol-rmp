@@ -1,0 +1,270 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0
+}
+.lesson {
+    width: 100%;
+  }
+
+span{
+  color:#ffff00;
+  background-color: #404040;
+  opacity: 0.7;
+}
+
+.container{
+padding: 180px 100px;
+text-align: center;
+
+}
+.top-wrapper {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color:white;
+}
+
+.top-wrapper p {
+  opacity: 0.9;
+  margin-bottom: 3px;
+  color: white;
+}
+
+.logo{
+  padding:20px 30px;
+  float:left;
+  width:200px;
+  box-shadow: #0099ff;
+  opacity: 0.9;
+}
+.header-right{
+padding-right:25px;
+  float:right;
+  margin-right:10px;
+
+}
+.header-right a {
+  opacity:0.9;
+  line-height: 65px;
+  text-decoration: none;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.signup {
+  background-color: #239b76;
+    text-decoration: none;
+}
+.google {
+  background-color: #4c8bf5;
+  margin-right: 10px;
+    text-decoration: none;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+    text-decoration: none;
+}
+.twitter {
+  background-color: #55acee;
+    text-decoration: none;
+}
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+.btn-wrapper p {
+  margin: 10px 0;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+.btn:hover {
+  opacity: 1;
+}
+.fa {
+  margin-right: 5px;
+}
+.signup-modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+.fa-times {
+  position: absolute;
+
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+.fa-times:hover {
+  color: #8491a5;
+  background-color: #ccd9ea;
+  transition: 0.3s ease-in-out;
+}
+#signup-form {
+  width: 100%;
+}
+
+#signup-form h2 {
+  color: #5f5d60;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+#signup-form input {
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+}
+
+#submit-btn {
+  display: inline-block;
+  padding: 14px 140px;
+  background-color: #5dca88;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.lesson-subtitle{
+  padding-top: 30px;
+}
+.lesson-wrapper {
+  padding-bottom: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+background-color: #ffffb3;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+
+}
+
+.heading h3 {
+  font-weight: normal;
+
+}
+.message-wrapper {
+padding-top:100px;
+  border-bottom: 1px solid #0033cc;
+
+  padding-bottom:
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+
+}
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+footer img {
+  width: 500px;
+
+
+}
+
+footer p {
+
+  color: #b3aeb5;
+  font-size: 40px;
+
+}
+
+footer {
+
+  background-color: #00001a;
+}
